@@ -1,0 +1,44 @@
+.positioning-element .tooltip{
+  font-family: Roboto, Arial;
+  background-color: white;
+  width: 200px;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.positioning-element:hover .tooltip{
+  opacity: 1;
+}
+
+.profile-photo{
+  width: 45px;
+  border-radius: 42px;
+  margin-right: 10px;
+}
+
+.positioning-element{
+  display: inline-block;
+  position: relative;
+}
+
+.channel-name{
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.channel-subscriber-count{
+  font-family: Roboto, Arial;
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+}
